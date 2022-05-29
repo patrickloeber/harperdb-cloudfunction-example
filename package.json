@@ -1,0 +1,9 @@
+{
+  "name": "custom_functions_demo",
+  "version": "1.0.0",
+  "description": "custom functions demo",
+  "author": "jaxon@harperdb.io",
+  "dependencies": {
+    "nodemailer": "^6.7.5"
+  }
+}

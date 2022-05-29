@@ -1,0 +1,41 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#app {
+  color: #fff;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+#app-content {
+  text-align: center;
+}
+
+#app-bg-color,
+#app-bg-dots {
+  bottom: 0;
+  height: 100vh;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100vw;
+}
+
+#app-bg-color {
+  background: linear-gradient(45deg, #312556, #403b8a, #7a3a87) !important;
+  z-index: -2;
+}
+
+#app-bg-dots {
+  background: radial-gradient(#403b8a 1px, transparent 0);
+  background-size: 3px 3px;
+  z-index: -1;
+}
